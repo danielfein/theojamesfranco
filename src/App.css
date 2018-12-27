@@ -1,32 +1,99 @@
-.App {
-  text-align: center;
+html, body {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+img {
+  width: 100%;
+}
+
+.mainImages {
+  margin-top: 125px;
+}
+
+.headerTextLarge{
+  position: absolute;
+  left: 75px;
+  top:20px;
+  float: left;
+  font-size: 25pt;
+  font-weight:600;
+  line-height: 40px;
+}
+
+.headerTextMedium{
+  position: absolute;
+  left: 35px;
+  top: 25px;
+  float: left;
+  font-size: 20pt;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.headerTextSmall{
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  float: left;
+  font-size: 18pt;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.headerPlusLarge{
+  position: absolute;
+  left: 45px;
+  font-size:60pt;
+  font-weight:300;
+}
+
+.headerPlusMedium{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  font-size:48pt;
+  font-weight:300;
+}
+
+.headerPlusSmall{
+  position: absolute;
+  top: 13px;
+  font-size:46pt;
+  font-weight:300;
+}
+
+.image {
+  z-index: 1;
+  position:relative;
+  top:0px;
+  left: 0px;
+  height:100%;
+}
+.cover {
+  display:none;
+  position:absolute;
+  top:0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  width: 100%;
+  height: 100%;
   color: white;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.coverText {
+  font-size: 2vw;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.timeText {
+  font-size: 1.5vw;
+  font-style: italic;
 }
